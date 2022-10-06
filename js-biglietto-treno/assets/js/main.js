@@ -24,5 +24,5 @@ if (numAnniPassenger > 65) {
 
 //l'output del prezzo finale va messo fuori in forma umana ( con max 2 decimali per indicare i centesimi sul prezzo )
 
-document.getElementById("priceMessage").innerHTML=prezzoTot.toFixed(2)
+document.getElementById("priceMessage").innerHTML=prezzoTot.toFixed(2);
 console.log(prezzoTot.toFixed(2));
